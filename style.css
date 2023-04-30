@@ -1,0 +1,78 @@
+body {
+  background: url(./img/sloths-seamlesssss-pattern.jpg);
+}
+
+.wrapper {
+  margin: 0 auto;
+  font-family: Georgia;
+}
+
+.header {
+  font-size: 20px;
+  color: rgb(112, 95, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.textarea {
+  display: block;
+  width: 680px;
+  height: 215px;
+  margin: 15px auto 15px;
+  padding: 15px;
+  font-size: 17px;
+  color: black;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  position:relative;
+  left: 60%;
+  text-align: center;
+  border: 1px solid rgb(227, 177, 38);
+}
+
+#keyboard {
+  display: block;
+  width: 700px;
+  height: 230px;
+  margin: 0 auto;
+  padding: 5px;
+  background: rgba(223, 203, 172, 0.543);
+  border: 3px outset rgb(201, 171, 0);
+  border-radius: 5px;
+  clear: both;
+}
+
+.k-key {
+  float: left;
+  width: 40px;
+  height: 30px;
+  margin: 3px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(78, 63, 0);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.clear {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.active {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+.description {
+  margin: 15px auto;
+  text-align: center;
+  color: rgb(60, 51, 0);
+}
