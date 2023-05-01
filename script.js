@@ -1,6 +1,3 @@
-//textarea.value = textarea.value + event.target.innerHTML;
-
-
 
 //const keyboard = [];
 const keyboard =[96, 49, 50, 51, 52, 53, 54, 55, 56, 57, 48, 45, 61, 8,
@@ -44,3 +41,15 @@ document.querySelectorAll('#keyboard .k-key').forEach(function(element){
         console.log(code);
 }
 });
+
+/*function SetMessage(m){
+    let textarea = document.querySelector("textarea[data-name='input-textarea']");  
+    textarea.value = 
+};*/
+
+const textarea = document.querySelector('.textarea');
+for (let k of keyCode){
+    k.onclick = function(){
+        textarea.textContent += k.textContent;
+    }
+}
